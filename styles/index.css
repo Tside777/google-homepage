@@ -1,15 +1,55 @@
-.left {
-    float: left;
+.flexnav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 8px;
 }
-.right {
-    float: right;
+
+.flexleft {
+    display: flex;
+    align-items: center;
+}
+
+.flexright {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 li {
-    display: inline;
-    margin-right: 10px;
+    margin: 0px 7px 0px 7px;
 }
 
-a {
+
+.link {
     text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.apps {
+    text-decoration: none;
+    height: 40px;
+    width: 40px;
+    padding: 8px;
+}
+.apps:hover {
+    background-color: rgba(60,64,67,0.08);
+    border-radius: 50%;
+}
+
+.profile {
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+    background-color: #8F40DDBA;
+    background-size: 32px 32px;
+    color: white;
+    border: 0;
+    font-size: 20px;
+}
+
+.profile:hover {
+    box-shadow: 0  0 0 5px rgba(0,0,0,.15);
 }
