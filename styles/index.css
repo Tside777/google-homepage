@@ -1,5 +1,15 @@
+body, html {
+    height: 100%;
+}
 main {
     height: 500px;
+}
+
+.fullpage {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .flexnav {
@@ -11,20 +21,47 @@ main {
 .flexleft {
     display: flex;
     align-items: center;
+    justify-content: flex-start;
 }
 
 .flexright {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: flex-end;
+}
+
+.flexcenter {
+    display: flex;
+    justify-content: center;
+}
+
+.spacer {
+    flex-grow: 1;
 }
 
 .flexfoot { 
+    background-color: #e8e8e8;
     display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.flexfoot div {
+    flex-basis: 100px;
+    flex-grow: 1;
+}
+
+.flexfoot a {
+    color: #757474;
 }
 
 li {
     margin: 0px 7px 0px 7px;
+}
+
+li img {
+    height: 14px;
 }
 
 p {
@@ -37,6 +74,7 @@ p {
     text-decoration: none;
     color: #000;
     font-size: 14px;
+    font-family: arial, sans-serif;
 }
 
 .link:hover {

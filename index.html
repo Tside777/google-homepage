@@ -1,44 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Google</title>
-        <link href="styles/reset.css" rel="stylesheet">
-        <link href="styles/index.css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    </head>
 
-    <body>
+<head>
+    <meta charset="UTF-8">
+    <title>Google</title>
+    <link href="styles/reset.css" rel="stylesheet">
+    <link href="styles/index.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <div class="fullpage">
         <header>
             <nav>
                 <ul>
                     <div class="flexnav">
-                    <div class="flexleft">
-                        <li><a class="link" href="#">About</a></li>
-                        <li><a class="link" href="#">Store</a></li>
+                        <div class="flexleft">
+                            <li><a class="link" href="#">About</a></li>
+                            <li><a class="link" href="#">Store</a></li>
+                        </div>
+                        <div class="flexright">
+                            <li><a class="link" href="#">Gmail</a></li>
+                            <li><a class="link" href="#">Images</a></li>
+                            <li class="material-icons"><a class="apps" href="#">apps</a></li>
+                            <li><button class="profile">T</button></li>
+                        </div>
                     </div>
-                    <div class="flexright">                        
-                        <li><a class="link" href="#">Gmail</a></li>
-                        <li><a class="link" href="#">Images</a></li>
-                        <li class="material-icons"><a class="apps" href="#">apps</a></li>
-                        <li><button class="profile">T</button></li>
-                    </div>
-                </div>
-                  </ul>
+                </ul>
             </nav>
         </header>
 
         <main>
             <div id="logo">
                 <div>
-                    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google">
+                    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+                        alt="Google">
                 </div>
             </div>
 
             <div>
                 <div id="searchArea">
                     <p class="material-icons">search</p>
-                    <input id="searchBar" type="search" placeholder="Search">
+                    <input id="searchBar" type="search">
                 </div>
                 <div id="searchButtons">
                     <input type="submit" value="Google Search">
@@ -47,23 +50,29 @@
             </div>
         </main>
 
-
+        <div class="spacer"></div>
         <footer>
             <ul>
                 <div class="flexfoot">
-                <div class="flexleft">
-                    <li><a class="link" href="#">Advertising</a></li>
-                    <li><a class="link" href="#">Business</a></li>
-                    <li><a class="link" href="#">How Search Works</a></li>
-
+                    <div class="flexleft">
+                        <li><a class="link" href="#">Advertising</a></li>
+                        <li><a class="link" href="#">Business</a></li>
+                        <li><a class="link" href="#">How Search Works</a></li>
+                    </div>
+                    <div class="flexcenter">
+                        <li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAYCAMAAAAiV0Z6AAAAPFBMVEVLoEN0wU6CzFKCzFKCzFKCzFKCzFJSo0MSczNDmkCCzFJPoUMTczNdr0gmgziCzFITczMTczMTczMTczPh00jOAAAAFHRSTlPF/+bIsms8Ad///hX+//5/tXw7aMEAx10AAACaSURBVHgBbc4HDoRQCATQ33tbvf9dF9QxaCT9UQaltLHOh/golXKhMs5Xqa0xU1lyoa2fXFyQOsDG38qsLy4TaV+sFislovyhPzLJJrBu6eQOtpW0LjbJkzTuTDLRVNKa3uxJI+VdiRqXSeu6GW+Qxi29eLIi8H7EsYrT42BD+mQtNO5JMjRuC4lSY8V4hsLX0egGijvUSEP9AbylEsOkeCgWAAAAAElFTkSuQmCC">
+                            <a class="link" href="#">Carbon neutral since 2007</a></li>
+                    </div>
+                    <div class="flexright">
+                        <li><a class="link" href="#">Privacy</a></li>
+                        <li><a class="link" href="#">Terms</a></li>
+                        <li><a class="link" href="#">Settings</a></li>
+                    </div>
                 </div>
-            <div class="footcenter"></div>
-            <div class="footright"></div>
-        </div>
             </ul>
         </footer>
-    </body>
+    </div>
+</body>
 
 
 </html>
-
